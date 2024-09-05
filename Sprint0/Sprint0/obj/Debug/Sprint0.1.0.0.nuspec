@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Sprint0</id>
+    <version>1.0.0</version>
+    <authors>Sprint0</authors>
+    <description>Package Description</description>
+    <repository type="git" />
+    <dependencies>
+      <group targetFramework="net6.0">
+        <dependency id="MonoGame.Content.Builder.Task" version="3.8.1.303" exclude="Build,Analyzers" />
+        <dependency id="MonoGame.Framework.DesktopGL" version="3.8.1.303" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <contentFiles>
+      <files include="any/net6.0/Content/bin/DesktopGL/Content/Credits.xnb" buildAction="Content" />
+      <files include="any/net6.0/Content/bin/DesktopGL/Content/fontS.xnb" buildAction="Content" />
+      <files include="any/net6.0/Content/bin/DesktopGL/Content/luigisheet.xnb" buildAction="Content" />
+      <files include="any/net6.0/Content/bin/DesktopGL/Content/smileywalk.xnb" buildAction="Content" />
+      <files include="any/net6.0/Content/bin/DesktopGL/Content/toadsheet.xnb" buildAction="Content" />
+    </contentFiles>
+  </metadata>
+  <files>
+    <file src="C:\Users\joshu\source\repos\Sprint0\Sprint0\bin\Debug\net6.0\Sprint0.runtimeconfig.json" target="lib\net6.0\Sprint0.runtimeconfig.json" />
+    <file src="C:\Users\joshu\source\repos\Sprint0\Sprint0\bin\Debug\net6.0\Sprint0.dll" target="lib\net6.0\Sprint0.dll" />
+    <file src="C:\Users\joshu\source\repos\Sprint0\Sprint0\Content\bin\DesktopGL\Content\Credits.xnb" target="content\Content\bin\DesktopGL\Content\Credits.xnb" />
+    <file src="C:\Users\joshu\source\repos\Sprint0\Sprint0\Content\bin\DesktopGL\Content\Credits.xnb" target="contentFiles\any\net6.0\Content\bin\DesktopGL\Content\Credits.xnb" />
+    <file src="C:\Users\joshu\source\repos\Sprint0\Sprint0\Content\bin\DesktopGL\Content\fontS.xnb" target="content\Content\bin\DesktopGL\Content\fontS.xnb" />
+    <file src="C:\Users\joshu\source\repos\Sprint0\Sprint0\Content\bin\DesktopGL\Content\fontS.xnb" target="contentFiles\any\net6.0\Content\bin\DesktopGL\Content\fontS.xnb" />
+    <file src="C:\Users\joshu\source\repos\Sprint0\Sprint0\Content\bin\DesktopGL\Content\luigisheet.xnb" target="content\Content\bin\DesktopGL\Content\luigisheet.xnb" />
+    <file src="C:\Users\joshu\source\repos\Sprint0\Sprint0\Content\bin\DesktopGL\Content\luigisheet.xnb" target="contentFiles\any\net6.0\Content\bin\DesktopGL\Content\luigisheet.xnb" />
+    <file src="C:\Users\joshu\source\repos\Sprint0\Sprint0\Content\bin\DesktopGL\Content\smileywalk.xnb" target="content\Content\bin\DesktopGL\Content\smileywalk.xnb" />
+    <file src="C:\Users\joshu\source\repos\Sprint0\Sprint0\Content\bin\DesktopGL\Content\smileywalk.xnb" target="contentFiles\any\net6.0\Content\bin\DesktopGL\Content\smileywalk.xnb" />
+    <file src="C:\Users\joshu\source\repos\Sprint0\Sprint0\Content\bin\DesktopGL\Content\toadsheet.xnb" target="content\Content\bin\DesktopGL\Content\toadsheet.xnb" />
+    <file src="C:\Users\joshu\source\repos\Sprint0\Sprint0\Content\bin\DesktopGL\Content\toadsheet.xnb" target="contentFiles\any\net6.0\Content\bin\DesktopGL\Content\toadsheet.xnb" />
+  </files>
+</package>
